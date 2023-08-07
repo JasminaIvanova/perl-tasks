@@ -10,7 +10,7 @@ sub time_convertor {
    $mon = sprintf("%02d", $mon);
    $year += 1900;
    #returning the result with the current time
-    return "$day-$mon-$year $hour:$min:$sec"; #the function will return the final decimal number
+    return "$day-$mon-$year $hour:$min:$sec";
 }
 
 my $time = time_convertor(); #declaration of variable to hold the converted time as result returned from the function 
