@@ -8,6 +8,7 @@ sub time_convertor {
    $hour = sprintf("%02d", $hour);
    $day = sprintf("%02d", $day);
    $mon = sprintf("%02d", $mon);
+   $year += 1900;
    #returning the result with the current time
     return "$day-$mon-$year $hour:$min:$sec"; #the function will return the final decimal number
 }
